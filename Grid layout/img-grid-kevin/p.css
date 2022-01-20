@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after{
+	box-sizing:border-box;
+}
+
+/*customized property*/
+
+:root{
+	--ff--primary: ;
+	--ff--secondary: ;
+
+	--fw--light: ;
+	--fw--bold: ;
+
+	background-blend-mode: ;
+
+	--clr--light: ;
+	--clr--dark: ;
+	--clr--accent: ;
+
+	--h1--fs: ;
+	--h2--fs: ;
+	--h3--fs: ;
+}
+
+@media (min-width:800px);
+     {--h1--fs: ;
+		--h2--fs: ;
+
+}
+
+/*general prpoerties*/
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	line-height:1.6;
+	background: ;
+	margin: 0;
+}
+
+img{
+	display:block;
+}
+
